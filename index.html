@@ -3,120 +3,92 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My practice file</title>
-    <style type="text/css">
-        header{
-            padding:60px;
-     /*     background-color:rgb(176, 233, 214);
-             */color:black;
-            background-image : url('assets/images/1643953706830.jpg' );
-            background-repeat: no-repeat;
-            background-size:cover;
-            
-        
-        }
-        header img{
-            border :10px black;
-            border-style: solid;
-            border-width: 1px;
-            border-radius: 50px;
-            padding: 10px;
-            flex: 0 0 300px;
-            box-shadow: 10px 10px 5px black;
-           /*  margin: 20px;*/
-        }
-        .nav-list{
-            display : flex;
-            gap : 5rem;
-            list-style: none;
-            justify-content: flex-end;
-            font-size:28px;
-            color: #0f111c;
-            font-weight: bold;
-             text-decoration: none;
-
-
-        }
-
-        .projects {
-         text-align: center;
-         width: 100%;
-         float: left;
-         padding: 30px 15px;
-         border: 1px solid #dddddd;
-         border-top: 4px solid #ff6748;
-         height: 100%;
-        }
-
-        
-        html {
-           height :100%;
-         
-        } 
-        body {
-            min-height : 100%;
-            font-family: sans-serif;
-
-        }
-
-        main  {
-            display :flex;
-            justify-content: center;
-            justify-items: flex-end;
-            background-color: rgb(163, 232, 232);
-            border: 6px #fff solid;
-            padding: 10px;
-            gap:3rem;
-            flex-direction:column;          
-        }
-
-        footer {
-                display: flex;
-                justify-content: center;
-                padding: 2%;
-                background-color: #13293d;
-                color: #fff;
-                }
-
-        @media screen and (max-width: 992px)
-        {
-            main ,.nav-list {
-                flex-direction : column;
-                background-color :rgb(209, 153, 153);
-            }
-        }
-        
-        @media screen and (max-width: 768px)
-        {
-            main {
-                background-color :rgb(171, 171, 243);
-            }
-
-        }
-        </style>
+    <link rel ="stylesheet" href="assets/css/style.css">
+    <title>Vidhi Portfolio</title>
+    
     
 </head>
 <body>
     <header>
-       <div> <img src ="assets/images/IMG_2410.jpg" width="200px"  alt ="vidhi"/></div>
-    
         <h1>Vidhi Sharma</h1>
-        <ul class ="nav-list">
-            <li>About me</li>
-            <li>Work</li>
-            <li>Contact me</li>
-            <li>Resume</li>
-        </ul>
-</header>
-    <main>
-      <article> <div class="projects">About me</div></article> 
-        <div class="projects"><span>Work</span>
-        <p>IN progress </p></div>
-        <div class="projects"><h3>Contact me</h3> </div>
-    </main>
+       <div> <img src ="assets/images/IMG_2410.jpg" width="170px" height =170px alt ="vidhi"/></div>
+       <ul class ="nav-list">
+        <li><a href=#aboutMe>About me</a></li>
+        <li><a href=#work>Work</a></li>
+        <li><a href=#contact>Contact me</a></li>
+        <li><a href=#>Resume</a></li>
+    </ul>
+     </header>
 
+<main>
+<!-- About Me Section -->
+
+<section class ="sections">
+    <aside id = "aboutMe" >
+      <h2>About Me</h2>
+      
+    </aside>
+
+    <section class="sectionDescription">
+      <p> An IT Professional with an experience of developing and maintaining software applications for our clients with over 3 years’ experience in the IT Industry. 
+        A results driven, self -motivated and enthusiastic individual with the capacity to learn new things promptly and efficiently. 
+        </p>
+    </section>
+</section>
+
+        <!-- Work Section -->
+
+  <section class ="sections">
+    <aside id="work"  >
+      <h1>Work</h1>
+     
+    </aside>
+
+    <section class="sectionDescription">
+       <div class="row">
+        <div class="column">
+          <img src="assets/images/Work.jpg">
+          <img src="assets/images/Work.jpg">
+
+        </div>
+        <div class="column">
+         <img src="assets/images/Work.jpg">
+         <img src="assets/images/Work.jpg">
+          <img src="assets/images/Work.jpg">
+
+         
+        </div>
+      
+      </div>
+
+    </section>
+</section>
+ 
+    
+    <!-- Contact Me section -->
+    <section class ="sections">
+     
+    <aside id="contact">
+      <h1>Contact me</h1>
+    </aside>
+
+    <section class="sectionDescription">
+        
+      <ul>
+        <li><a href="tel:+6147481037">+61 474781037</a></li>
+        <li><a href="mailto:vidhi.sydney07@gmail.com"> vidhi.sydney07@gmail.com</a></li>
+        <li><a href ="https://github.com/">Github</a> </li>
+        <li>Twitter</li>
+        <li>Spotify</li>
+    
+      </ul>
+
+    </section>
+</section>
+</main>
    
 </body>
+
 <footer>
     <span>Thanks for visiting!</span>
   </footer>
