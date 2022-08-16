@@ -53,4 +53,4 @@ All the images and styling files have been added to a folder assets.
  all the images used on the website are in a folder:
  ../assets/images
 
-WEBSITE LINK :
+WEBSITE LINK : https://vidhi0307.github.io/MyProfile-Week2/
